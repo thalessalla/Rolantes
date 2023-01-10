@@ -1,0 +1,98 @@
+.container-sobre {
+  background-color: #d5c68e;
+  box-shadow: inset 400px 0px var(--cor-2);
+}
+
+.container-sobre > div {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+  align-content: center;
+  gap: 40px;
+}
+
+.div-sobre h2 {
+  position: relative;
+}
+
+.div-sobre h2::before {
+  content: "";
+  position: absolute;
+  height: 6px;
+  width: 29px;
+  background: url("../img/Barra-de-texto.png");
+  top: 58px;
+}
+.colagem-sobre {
+  display: flex;
+  align-items: center;
+}
+.colagem-sobre img {
+  width: 100%;
+}
+.div-sobre h2 {
+  padding-bottom: 40px;
+}
+.sobre-mobile {
+  display: none;
+}
+
+/* Responsividade */
+
+@media (max-width: 1200px) {
+  .container-sobre > div {
+    grid-template-columns: 40% 1fr;
+    gap: 40px;
+    align-items: center;
+  }
+  .colagem-sobre {
+    width: 100%;
+  }
+  .container-sobre > div {
+    margin: 0 40px;
+  }
+}
+@media (max-width: 950px) {
+  .container-sobre > div {
+    grid-template-columns: 1fr;
+    height: auto;
+    gap: 40px;
+  }
+  .colagem-sobre {
+    display: flex;
+    justify-content: center !important;
+    padding-top: 40px;
+  }
+  .colagem-sobre img {
+    width: 80%;
+  }
+  .container-sobre {
+    padding-top: 40px;
+    background-color: var(--cor-2);
+    box-shadow: none;
+  }
+  .colagem-sobre {
+    display: none;
+  }
+  .sobre-mobile {
+    display: flex;
+    /*  display: grid;
+    grid-template-columns: 1fr 1fr; 
+    padding-bottom: 40px;*/
+  }
+  .sobre-mobile {
+    width: 100%;
+    margin: 0 !important;
+  }
+  .div-sobre h2 {
+    display: flex;
+    justify-content: center;
+  }
+  .div-sobre > div {
+    border-top: solid 1px var(--cor-5);
+    margin: 40px 0;
+    padding-top: 40px;
+  }
+}

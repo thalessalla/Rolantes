@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap");
+
+.font-1-g {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 95.02%;
+}
+.font-1-m {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 108.5%;
+}
+.font-1-p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+}
+.font-2-g {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+}
+.font-2-m {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+}
+.font-2-p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+.container-footer div:first-child {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 950px) {
+  .font-1-m {
+    font-size: 50px;
+  }
+  .font-2-m {
+    font-size: 16px;
+  }
+  .font-1-p {
+    font-size: 24px;
+    line-height: 120%;
+  }
+  .font-2-g {
+    font-size: 28px;
+  }
+}

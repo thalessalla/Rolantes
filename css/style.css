@@ -1,0 +1,9 @@
+@import "./home.css";
+@import "./sobre.css";
+@import "./menu.css";
+@import "./footer.css";
+@import "./nossos-trabalhos.css";
+@import "./contato.css";
+@import "../utilidades/cores.css";
+@import "../utilidades/tipografia.css";
+@import "./global.css";

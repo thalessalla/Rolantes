@@ -1,0 +1,27 @@
+.itens-menu li:last-child {
+  position: relative;
+}
+.itens-menu li:last-child::after {
+  content: "";
+  background: url("../img/rabisco.svg");
+  width: 115px;
+  height: 40px;
+  position: absolute;
+  background-repeat: no-repeat;
+  left: -10px;
+  top: 24px;
+}
+.itens-menu a {
+  color: var(--cor-10);
+  font-size: 20px;
+}
+.itens-menu a:hover {
+  color: var(--cor-1);
+}
+.menu {
+  max-width: 1200px;
+  padding-top: 40px;
+  margin: 0 80px;
+  display: grid;
+  grid-template-columns: 350px 1fr;
+}
