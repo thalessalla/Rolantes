@@ -1,6 +1,6 @@
 .contato {
   background-image: url("../img/Fundo.png");
-  height: 100vh;
+  height: calc(100vh + 63px);
   object-fit: cover;
   box-shadow: inset -50vw 0px var(--cor-2);
   align-content: center;
@@ -208,13 +208,22 @@ label[type="email"] {
   #formulario > div:last-child {
     margin: 0 40px 0 40px;
   }
+  #formulario > div:last-child {
+    padding-bottom: 40px;
+  }
+  .contato {
+    height: auto;
+  }
 }
 
-@media (max-height: 800px) {
+@media (max-width: 500px) {
   .contato {
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
   }
   #formulario {
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
+  }
+  #formulario > div:last-child {
+    padding-bottom: 40px;
   }
 }
