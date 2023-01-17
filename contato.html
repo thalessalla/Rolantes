@@ -40,52 +40,58 @@
         <img src="./img/decoracao-contato.svg" alt="">
       </div>
 
-      <div id="formulario">
 
-        <div class="container-form">
+      <form action="https://formsubmit.co/thales.salla@gmail.com" method="POST" method="post">
 
-          <div>
-            <form action="/pagina-processa-dados-do-form" method="post">
+        <div id="formulario">
+
+          <div class="container-form">
+
+            <div>
+              <!-- <form action="https://formsubmit.co/thales.salla@gmail.com" method="POST" method="post"> -->
               <div class="primeiro-container-form">
                 <label for="name" class="font-2-p cor-8">Nome:</label>
-                <input type="text" id="name" />
+                <input type="text" id="name" name="Nome" />
               </div>
 
               <div id="email-form">
                 <label for="mail" class="font-2-p cor-8">E-mail:</label>
-                <input type="email" id="mail" />
+                <input type="email" id="mail" name="Email" />
               </div>
+            </div>
           </div>
-        </div>
 
 
-        <div class="segundo-container-form">
+          <div class="segundo-container-form">
+
+            <div>
+              <label for="tel" class="font-2-p cor-8"> Telefone:</label> <input id="tel" type="tel" name="phone">
+            </div>
+
+          </div>
 
           <div>
-            <label for="tel" class="font-2-p cor-8"> Telefone:</label> <input id="tel" type="tel" name="phone">
+
+            <div class="terceiro-container-form">
+              <label for="story" class="font-2-p cor-8">Mensagem:</label>
+              <textarea id="story" name="story"></textarea>
+            </div>
+
+            <input type="text" name="_honey" style="display:none">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://thalessalla.github.io/Rolantes/obrigado">
+
+            <div class="button">
+              <button type="submit">Enviar sua mensagem</button>
+            </div>
+
+            <p class="font-2-p cor-7">Nosso e-mail</p>
+            <p class="font-2-p cor-8">contato@caixarolante.com.br</p>
           </div>
+
 
         </div>
-
-        <div>
-
-          <div class="terceiro-container-form">
-            <label for="msg" class="font-2-p cor-8">Mensagem:</label>
-            <textarea id="msg"></textarea>
-          </div>
-
-
-
-          <div class="button">
-            <button type="submit">Enviar sua mensagem</button>
-          </div>
-
-          <p class="font-2-p cor-7">Nosso e-mail</p>
-          <p class="font-2-p cor-8">contato@caixarolante.com.br</p>
-        </div>
-
-        </form>
-      </div>
+      </form>
     </div>
 
 
