@@ -9,6 +9,28 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 
+<header class="Header-menu">
+
+  <div class="menu-fixo">
+    <div>
+      <img src="./img/logo.png" alt="">
+      <nav class="js-link" id="nav">
+        <button id="btn-mobile" aria-expanded="false">Menu
+          <span id="hamburguer"></span>
+        </button>
+        <ul id="menu" class="menu-itens ">
+          <li class="font-2-m"><a href="./index.html"> Home</a></li>
+          <li class="font-2-m"><a href="./trabalhos.html">Portfólio</a></li>
+          <li class="font-2-m"><a href="./contato.html">Contato</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </div>
+
+</header>
+
+
 <body>
   <div class="container-capa-trabalhos">
 
@@ -39,7 +61,55 @@
   </div>
 
 
-  <section class="areas-trabalho">
+  <div class="preview-videos">
+
+
+    <a class="preview-videos-itens js-fade-up" href="https://www.youtube.com/watch?v=-zAlvtahxTI&list=PLt33sdl-cTuj7GWuiz8flqlrLED-C3loO">
+
+      <div class="image-container">
+
+        <picture>
+          <source media="(max-width: 799px)" srcset="./img/jobs-gastronimia-w500.jpg">
+          <source media="(min-width: 800px)" srcset="./img/jobs-gastronimia.jpg">
+          <img src="./img/jobs-gastronimia.jpg" alt="">
+        </picture>
+        <div class="image-text font-2-g">Jobs gastronomia</div>
+        <div class="image-text-desc font-2-p">Uma das formas que mais amamos de conhecer uma cultura é através da gastronomia. Gravamos a experiência gastronômica que o restaurante (restaurante, café, bar, bistrô, hamburgueria…) proporciona. Produzimos um filme sobre o preparo do prato ou drink, a experiência do cliente e o movimento da casa.</div>
+      </div>
+    </a>
+
+
+    <a class="preview-videos-itens js-fade-up" href="https://www.youtube.com/watch?v=m7PhQ08JHMA&list=PLt33sdl-cTui4xjDvFTFKSKuLmpDu40Nc">
+
+      <div class="image-container">
+        <picture>
+          <source media="(max-width: 799px)" srcset="./img/jobs-hoteis-w500.jpg">
+          <source media="(min-width: 800px)" srcset="./img/jobs-hotelaria.jpg">
+          <img src="./img/jobs-hotelaria.jpg" alt="">
+        </picture>
+        <div class="image-text font-2-g">Jobs Hospedagens</div>
+        <div class="image-text-desc font-2-p">Amamos estar em lugares que inspiram o melhor de nós. Gravamos a experiência que o hotel (hotel, pousada, casa de aluguel, hostel, cabana, chalé….) proporciona. Produzimos um filme sobre o espaço, a experiência do cliente, experiências oferecidas e atrações ao redor.</div>
+      </div>
+    </a>
+
+
+    <a class="preview-videos-itens js-fade-up" href="https://www.youtube.com/watch?v=plBhUWjO7yE&list=PLt33sdl-cTuhQRjFCyZGm3cFdG1NWrdQo">
+
+      <div class="image-container">
+        <picture>
+          <source media="(max-width: 799px)" srcset="./img/jobs-marcas-w500.jpg">
+          <source media="(min-width: 800px)" srcset="./img/jobs-marcas.jpg">
+          <img src="./img/jobs-marcas.jpg" alt="">
+        </picture>
+        <div class="image-text image-text-marcas font-2-g">Jobs marcas</div>
+        <div class="image-text-desc font-2-p">Tudo fica melhor quando temos pessoas com idéias semelhantes junto com a gente. Por isso levamos marcas parceiras para viajar com a gente. Produzimos videos com produtos nos lindo cenários que passamos pelo mundo.</div>
+      </div>
+    </a>
+
+  </div>
+
+  <section class="areas-trabalho js-fade-up">
+    <!-- 
 
     <div class="container-items-trabalhos">
       <div>
@@ -63,17 +133,17 @@
       </div>
     </div>
 
-    <div class="container-items-trabalhos">
+  <div>  <div class="container-items-trabalhos">
       <div>
         <img src="./img/marcas.png" alt="">
       </div>
 
-      <div>
+      
         <h3 class="font-2-g cor-5">Marcas</h3>
         <p class="font-2-p cor-8">Tudo fica melhor quando temos pessoas com idéias semelhantes junto com a gente. Por isso levamos marcas parceiras para viajar com a gente.
           Produzimos videos com produtos nos lindo cenários que passamos pelo mundo.</p>
       </div>
-    </div>
+    </div> -->
 
     <div class="container-items-trabalhos">
       <div>
@@ -123,22 +193,6 @@
 
 
 
-  <div class="preview-videos">
-
-    <div>
-      <a href="https://www.youtube.com/watch?v=-zAlvtahxTI&list=PLt33sdl-cTuj7GWuiz8flqlrLED-C3loO"><img src="./img/jobs-gastronomias.png" alt=""></a>
-    </div>
-
-    <div>
-      <a href="https://www.youtube.com/watch?v=m7PhQ08JHMA&list=PLt33sdl-cTui4xjDvFTFKSKuLmpDu40Nc"><img src="./img/jobs-hotelaria.png" alt=""></a>
-    </div>
-
-    <div>
-      <a href="https://www.youtube.com/watch?v=plBhUWjO7yE&list=PLt33sdl-cTuhQRjFCyZGm3cFdG1NWrdQo"><img src="./img/jobs-marcas.png" alt=""></a>
-    </div>
-
-  </div>
-
   <footer>
     <div class="container-footer">
       <div class="logo-footer">
@@ -171,7 +225,7 @@
     </div>
 
   </footer>
-
+  <script src="./JS/script.js"></script>
 </body>
 
 

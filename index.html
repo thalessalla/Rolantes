@@ -11,23 +11,45 @@
 
 <body>
 
-  <header>
+
+  <header class="Header-menu-home">
+
+    <div class="menu-fixo">
+      <div>
+        <img src="./img/logo.png" alt="">
+        <nav class="js-link" id="nav">
+          <button id="btn-mobile" class="btn-home" aria-expanded="false">Menu
+            <span id="hamburguer"></span>
+          </button>
+          <ul id="menu" class="menu-itens ">
+            <li class="font-2-m"><a href="./index.html"> Home</a></li>
+            <li class="font-2-m"><a href="./trabalhos.html">Portfólio</a></li>
+            <li class="font-2-m"><a href="./contato.html">Contato</a></li>
+          </ul>
+        </nav>
+
+      </div>
+    </div>
 
   </header>
+
+
+
   <main class="home">
 
     <header class="menu">
       <div>
         <img src="./img/logo.png" alt="">
       </div>
-      <div>
+      <nav>
         <ul class="itens-menu">
           <li class="font-2-m cor-10"><a href="#"> Home</a></li>
           <li class="font-2-m cor-10"><a href="./trabalhos.html">Portfólio</a></li>
           <li class="font-2-m cor-10"><a href="./contato.html">Contato</a></li>
         </ul>
-      </div>
+      </nav>
     </header>
+
 
     <Div class="coluna-home-esc">
       <div>
@@ -57,7 +79,7 @@
         <div><a href="https://www.youtube.com/c/CaixaRolante"> <img src="./img/Youtube.svg" alt="Youtube"></a></div>
 
         <div>
-          <picture>
+          <picture class="js-fade-up">
             <source media="(min-width: 540px)" srcset="./img/barra.svg" />
 
             <img src="./img/barra-small.svg" alt="barra decorativa" />
@@ -73,14 +95,14 @@
 
 
 
-  <article class="container-sobre">
+  <article class="container-sobre ">
     <div class="container-sobre-grid">
 
-      <img class="colagem-sobre" src="./img/colagem-caixa.png" alt="Sobre a caixa rolante">
+      <img class="colagem-sobre js-fade-up" src="./img/colagem-caixa.png" alt="Sobre a caixa rolante">
 
 
 
-      <div class="div-sobre">
+      <div class="div-sobre js-fade-up">
         <h2 class="font-1-m cor-1">Sobre nós</h2>
 
         <img class="sobre-mobile" src="./img/vitor-nathalia.png" alt="">
@@ -103,7 +125,7 @@
 
 
 
-  <Section class="nossos-trabalhos-home">
+  <Section class="nossos-trabalhos-home js-fade-up">
 
     <div class="div-titulo">
       <h2 class="font-1-m cor-1">Nossos trabalhos</h2>
@@ -166,7 +188,7 @@
     </div>
 
   </footer>
-
+  <script src="./JS/script.js"></script>
 </body>
 
 </html>

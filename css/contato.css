@@ -6,17 +6,9 @@
   align-content: center;
   display: flex;
   position: relative;
+  top: -63px;
+  margin-bottom: -63px;
 }
-/* .container-contato h2::before {
-  content: "";
-  width: 100%;
-  height: auto;
-  background-image: url("../img/decoracao-contato.svg");
-  position: absolute;
-  background-repeat: no-repeat;
-  left: 4px;
-  bottom: 24px;
-} */
 
 .container-contato img {
   width: 80%;
@@ -204,6 +196,8 @@ label[type="email"] {
   }
   .container-contato h2 {
     padding-bottom: 2%;
+    padding-top: 100px;
+    font-size: 36px;
   }
   .primeiro-container-form {
     padding-bottom: 16px;
